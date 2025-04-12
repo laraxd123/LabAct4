@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> <!-- Character encoding for the webpage -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures responsive design on mobile devices -->
+  <title>Contact Me</title> <!-- Title of the page displayed on the browser tab -->
+  <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS for styling -->
+
+  <!-- Font Awesome CDN for social media icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <h1>Contact Me</h1> <!-- Main header for the page -->
+    <nav>
+      <!-- Navigation links to different pages of the portfolio -->
+      <a href="index.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html" class="active">Contact</a> <!-- Current active page is Contact -->
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <!-- My contact details section -->
+    <div class="my-contact-details">
+      <h2>If you're interested, please Contact me.</h2> <!-- Introductory text -->
+      <p><strong>Email:</strong> francine.lara.bautista@adamson.edu.</p> <!-- Contact email -->
+      <p><strong>Phone:</strong> +63 912 345 6789</p> <!-- Contact phone number -->
+
+      <!-- Social Media Icons Section -->
+      <div class="social-media">
+        <!-- Links to social media platforms, each with an icon -->
+        <a href="https://facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <a href="https://linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://twitter.com" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+
+    <!-- Contact form section -->
+    <form action="#" method="post">
+      <!-- Form inputs for name, email, and message -->
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required> <!-- User's name input field -->
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required> <!-- User's email input field -->
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" rows="6" required></textarea> <!-- Text area for user's message -->
+
+      <button type="submit">Send Message</button> <!-- Submit button to send the form -->
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 Francine Lara G. Bautista. All rights reserved.</p> <!-- Copyright information -->
+  </footer>
+</body>
+</html>
